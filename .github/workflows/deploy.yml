@@ -29,10 +29,12 @@ jobs:
         python-version: '3.11'
         
     - name: Install dependencies
+      working-directory: ./aalto-survival-guide
       run: |
         pip install -r requirements.txt
         
     - name: Build and deploy
+      working-directory: ./aalto-survival-guide
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
