@@ -14,13 +14,13 @@
 
 ### 在线阅读
 
-访问我们的网站：[https://yourusername.github.io/aalto-survival-guide/](https://yourusername.github.io/aalto-survival-guide/)
+访问我们的网站：[https://wichai-pan.github.io/aalto-survival-guide/](https://wichai-pan.github.io/aalto-survival-guide/)
 
 ### 本地运行
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/aalto-survival-guide.git
+git clone https://github.com/Wichai-pan/aalto-survival-guide.git
 cd aalto-survival-guide
 
 # 创建虚拟环境
@@ -98,8 +98,8 @@ docs/
 
 ## 📧 联系我们
 
-- **GitHub Issues**: [提出问题或建议](https://github.com/yourusername/aalto-survival-guide/issues)
-- **Email**: youremail@example.com
+- **GitHub Issues**: [提出问题或建议](https://github.com/Wichai-pan/aalto-survival-guide/issues)
+- **Email**: wichai.pan@example.com
 - **微信群**: [扫码加入讨论群]
 
 ## 📄 许可证

@@ -1,14 +1,14 @@
 site_name: 阿尔托大学生存指南
-site_url: https://yourusername.github.io/aalto-survival-guide/
-site_author: Your Name
+site_url: https://wichai-pan.github.io/aalto-survival-guide/
+site_author: Wichai Pan
 site_description: 为来阿尔托大学学习的学生提供全面的生存指南
 
 # Repository
-repo_name: yourusername/aalto-survival-guide
-repo_url: https://github.com/yourusername/aalto-survival-guide
+repo_name: Wichai-pan/aalto-survival-guide
+repo_url: https://github.com/Wichai-pan/aalto-survival-guide
 
 # Copyright
-copyright: Copyright &copy; 2025 Your Name
+copyright: Copyright &copy; 2025 Wichai Pan
 
 # Configuration
 theme:
@@ -81,11 +81,8 @@ extra:
     json: [.s2]
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername
+      link: https://github.com/Wichai-pan
       name: GitHub
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/yourusername
-      name: Twitter
 
 # Extensions
 markdown_extensions:
@@ -115,7 +112,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: yourusername
+      user: Wichai-pan
       repo: aalto-survival-guide
   - pymdownx.mark
   - pymdownx.smartsymbols
