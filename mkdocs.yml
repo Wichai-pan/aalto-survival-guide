@@ -1,0 +1,167 @@
+site_name: 阿尔托大学生存指南
+site_url: https://yourusername.github.io/aalto-survival-guide/
+site_author: Your Name
+site_description: 为来阿尔托大学学习的学生提供全面的生存指南
+
+# Repository
+repo_name: yourusername/aalto-survival-guide
+repo_url: https://github.com/yourusername/aalto-survival-guide
+
+# Copyright
+copyright: Copyright &copy; 2025 Your Name
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至夜间模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换至日间模式
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: material/school
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
+      timezone: Europe/Helsinki
+      fallback_to_build_date: true
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      count_empty_lines: true
+      fallback_to_build_date: true
+
+# Customization
+extra:
+  annotate:
+    json: [.s2]
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+      name: GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourusername
+      name: Twitter
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: yourusername
+      repo: aalto-survival-guide
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - 首页: index.md
+  - 开始之前:
+    - 欢迎来到阿尔托: getting-started/welcome.md
+    - 基本信息: getting-started/basic-info.md
+    - 入学准备: getting-started/preparation.md
+  - 学术生活:
+    - 选课指南: academic/course-selection.md
+    - 学习资源: academic/resources.md
+    - 考试技巧: academic/exam-tips.md
+  - 生活指南:
+    - 住宿: living/housing.md
+    - 交通: living/transportation.md
+    - 购物: living/shopping.md
+    - 饮食: living/food.md
+  - 社交与文化:
+    - 学生组织: social/organizations.md
+    - 文化活动: social/events.md
+    - 结识朋友: social/making-friends.md
+  - 实用信息:
+    - 银行服务: practical/banking.md
+    - 医疗保险: practical/healthcare.md
+    - 工作机会: practical/work.md
+  - 资源链接:
+    - 官方网站: resources/official-links.md
+    - 实用工具: resources/tools.md
+    - 常见问题: resources/faq.md
